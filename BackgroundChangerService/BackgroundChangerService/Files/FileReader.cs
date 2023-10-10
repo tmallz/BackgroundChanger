@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
-
-namespace BackgroundChanger.Files
+﻿namespace BackgroundChangerService.Files
 {
-    public class FileReader
+    public class FileReader : IFileReader
     {
         private static string fileLocation = "C:\\Users\\Tim\\Pictures\\Saved Pictures";
 
